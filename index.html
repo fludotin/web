@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codems</title>
+     <!--Font awesome cdn link-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <!--custom css file link-->
+     <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+<!-- Header section starts -->
+<header style="position: fixed; width: 100%; z-index: 1000; color: black;">
+    <!-- Línea roja como topbar -->
+    <hr style="border: 10px solid rgb(218, 32, 60); width: calc(100% + 20px); position: absolute; top: 0; left: -10px; margin: 0;">
+
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+    
+    <!-- Use an img tag for the logo -->
+    <img src="images/logo.png" alt="Logo" height="60">
+    
+    <nav class="navbar" style="margin-top: 10px; color: black;"> <!-- Ajusta el valor del margen superior según sea necesario -->
+        <a href="#home" style="color: black;">Inicio</a>
+        <a href="#about" style="color: black;">Nosotros</a>
+        <a href="http://localhost/tienda/Tienda/laptops.php" style="color: black;">Tienda</a>
+        <a href="http://localhost/financiamiento/#http://localhost/nueva/#home" style="color: black;">Formulario</a>
+        <a href="#contact" style="color: black;">Contactos</a>
+    </nav>
+    
+    <div class="icons">
+        <a href="http://localhost/tienda/laptops.php" class="fas fa-shopping-cart" style="color: black;"></a>
+        <a href="#" class="fas fa-user" style="color: black;"></a>
+    </div>
+</header>
+
+
+<!-- Header section ends -->
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<!-- Slider section -->
+<div class="slider">
+    <div class="list">
+        <div class="item">
+            <img src="images/d56679ff686f01d5e125154071ac69222fb6debc_COMPRA-LO-MEJOR.png" alt="">
+        </div>
+        <div class="item">
+            <img src="images/banner.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="images/tankear.jpg" alt="">
+        </div>
+       
+       
+    </div>
+    <div class="buttons">
+        <button id="prev"><</button>
+        <button id="next">></button>
+    </div>
+    <ul class="dots">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+
+<!-- JavaScript script -->
+<script src="app.js"></script>
+
+<!-- About section -->
+<br>
+<br>
+<br>
+<br>
+<section class="about" id="about">
+    <h1 class="heading"><span>Sobre Nosotros</span> </h1>
+    <div class="row">
+        <div class="video-container">
+            <video src="images/cofr.mp4" loop autoplay muted></video>
+        </div>
+        <div class="content">
+            <img src="images/logo.png" alt="Logo" height="70">
+            <p>Somos una empresa única y fascinante que ha ganado renombre por ofrecer una experiencia de compra innovadora y productos de vanguardia. Fuimos fundados con la visión de fusionar la tecnología con la moda, y hemos llegado a ser un destino imprescindible para aquellos que buscan lo último en gadgets y accesorios de alta tecnología..</p>
+        </div>
+    </div>
+</section>
+
+
+  <!--About section ends-->
+
+<!--icons section starts-->
+
+<section class="icons-container">
+    <div class="icons">
+        <img src="images/icon-1.png" alt="">
+        <div class="info">
+            <h3>Delivery Gratuito</h3>
+            <span>en todos los pedidos</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="images/icon-2.png" alt="">
+        <div class="info">
+            <h3>10 Dias de garantia</h3>
+            <span>Garantía de devolución del dinero</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="images/icon-3.png" alt="">
+        <div class="info">
+            <h3>Ofertas y Cuotas</h3>
+            <span>en una amplia variedad</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="images/icon-4.png" alt="">
+        <div class="info">
+            <h3>Aceptamos Targetas</h3>
+            <span>Protegido por paypal</span>
+        </div>
+    </div>
+</section>
+
+<!--icons section ends-->
+
+
+        
+    </div>
+</section>
+<!--Products section ends-->
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Cards - Tarjetas con efecto Hover</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<!--   Tarjetas-->
+<div class="title-cards">
+		<h1>Servicios que Ofrecemos</h1>
+	</div>
+<div class="container-card">
+	
+<div class="card">
+	<figure>
+		<img src="https://www.grupocarosso.org/uploads/9/2/1/4/9214434/s489761540720901468_p8_i2_w609.jpeg">
+	</figure>
+	<div class="contenido-card">
+		<h2>Instalación de Cámaras</h2>
+		<p>nuestros expertos te ofrecen la instalación de cámaras con dedicación y experiencia. Confía en su conocimiento para garantizar un entorno protegido. </p>
+	
+	</div>
+</div>
+<div class="card">
+	<figure>
+		<img src="https://img.freepik.com/foto-gratis/tecnico-reparacion-computadora-hardware-computadora-reparacion-actualizacion-tecnologia_1150-8861.jpg">
+	</figure>
+	<div class="contenido-card">
+		<h2>Reparación de equipos</h2>
+		<p> un rendimiento óptimo de tu PC, por eso nuestros expertos te ofrecen servicios de reparación con dedicación y experiencia. Confía en su conocimiento para solucionar cualquier problema informático.</p>
+	
+	</div>
+</div>
+<div class="card">
+	<figure>
+		<img src="https://www.timg.com/wp-content/uploads/2023/08/timg-laptops-notebooks.jpg">
+	</figure>
+	<div class="contenido-card">
+		<h2>Ventas de Laptos etc.</h2>
+		<p>Ofrecemos una amplia gama de laptops con dedicación y experiencia. Confía en su conocimiento para encontrar la opción perfecta que se adapte a tus necesidades.</p>
+
+	</div>
+</div>
+</div>
+<!--Fin   Tarjetas-->
+</body>
+</html>-
+
+<<!-- Sección de contacto -->
+<section class="contact" id="contact">
+    <h1 class="heading"><span>Servicios Técnicos</span></h1>
+    <div class="row">
+        <div class="form-container">
+            <form action="process_form.php" method="post">
+                <input type="text" name="nombre" class="box" placeholder="Nombre">
+                <input type="email" name="email" class="box" placeholder="Email">
+                <input type="number" name="telefono" class="box" placeholder="Teléfono">
+                
+                <!-- Agregar el campo de selección para el asunto -->
+                <select name="asunto" class="box">
+                    <option value="instalacion">Instalación de cámaras</option>
+                    <option value="reparacion">Reparación de equipo</option>
+                    <option value="otro">Otro</option>
+                </select>
+                
+                <textarea name="mensaje" class="box" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="Enviar Mensaje" class="btn">
+                <!-- Agregar el botón de reinicio (vaciar texto) -->
+                <input type="reset" value="Vaciar Texto" class="btn">
+            </form>
+        </div>
+        <div class="image-container">
+            <!-- Agrega aquí la etiqueta de la imagen que desees -->
+            <img src="images/servicio-tecnico-1.png" alt="Descripción de la imagen">
+        </div>
+    </div>
+</section>
+<!-- Fin de la sección de contacto -->
+
+
+<
+<footer id="footer" class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+               
+                <h4>Codems</h4>
+                <ul>
+                    <li><a href="#" id="slider">Inicio</a></li>
+                    <li><a href="#">Registro</a></li>
+                    <li><a href="#">Tienda</a></li>
+                    <li><a href="https://www.google.com/maps/place/Nike+Factory+Store/@19.4525449,-70.701909,15z/data=!4m6!3m5!1s0x8eb1cf5977cc7843:0x8a9234d7a0d6c1af!8m2!3d19.4525449!4d-70.701909!16s%2Fg%2F11c1wnh_w7?entry=ttu">Ubicacion</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4> Desarrollador</h4>
+                <ul>
+                    <li><a href="#" id="Contactanos">Carlos Manuel Florentino</a></li>
+                    <li><a href="#"> +1 829-840-2410</a></li>
+                    <li><a href="#">fludoton@gmail.com</a></li>
+       
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Actualizaciones</h4>
+                <ul>
+                    <li><a href="#">25/1/2024</li>
+                    <li><a href="#">3/2/2024</a></li>
+                   
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Redes sociales</h4>
+                <div class="social-links">
+                   <a href="https://www.facebook.com/nike/?locale=es_LA" target="_blank"><img alt="Siguenos en Facebook" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" width=32 height=32  /></a>
+                   <a href="https://www.instagram.com/nike/?hl=es" target="_blank"><img src="https://freelogopng.com/images/all_img/1658587303instagram-png.png" width=32 height=32 alt="Síguenos en Twitter" /></a>
+                    <a href="https://twitter.com/Nike?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img alt="Siguenos en Blogger" src="https://cdn.icon-icons.com/icons2/4029/PNG/512/twitter_x_new_logo_x_rounded_icon_256078.png" width=32 height=32  /></a>
+                    <a rel="author" href="https://plus.google.com/TU_ID_GOOGLE?rel=author" target="_blank"><img alt="Siguenos en Google+" src="https://static.vecteezy.com/system/resources/previews/016/716/478/original/google-maps-icon-free-png.png" width=32 height=32  /></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-col logo-col">
+       <div class="footer-logo">
+     
+       </div>
+   </div>
+   
+</footer>
